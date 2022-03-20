@@ -1,0 +1,31 @@
+.header{
+    background: $main-black;
+    padding: 18px 0;
+    color: aquamarine;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    max-width: 100%;
+}
+.header-col-1{
+    display: flex;
+    align-items: center;
+}
+.lodo-link{
+    text-decoration:none;
+    color: transparent;
+    
+   
+}
+
+.search-button, .main-menu-button{
+    background-color: transparent;
+    border: none;
+}
+.registry-link, .cart-link{
+    text-decoration: none;
+    color: white;
+}
+  
