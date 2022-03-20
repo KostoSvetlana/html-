@@ -949,8 +949,8 @@ color: #000000;
 
 
 .link {
-background-color: #F16D7F;
-border:1px solid #FF6A6A;
+background-color: #25752c;
+border:3px solid #FF6A6A;
 padding: 10px 20px;
 color: #fff;
 cursor: pointer;
@@ -963,7 +963,7 @@ text-decoration: none;
 transition: 2.5s;
 }
 .link:hover {
-background-color: #E5E5E5;
+background-color: #d6d6d6;
 color:  #F26376;
 transform: rotateX(360deg);
 }
@@ -1426,4 +1426,26 @@ html, body {
     .post-item {
        flex-basis: 35%;
     }
+ }
+ .advantages-cente{
+    background-image:url(../img/BZyRB.jpg);
+    background-color: #eee;
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+ }
+ .logo-link{
+    text-decoration: none;
+    color: transparent;
+    padding: 0 0 0 40px;
  }
