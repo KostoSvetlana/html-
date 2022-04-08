@@ -2041,3 +2041,13 @@ img {
   padding: 0 0 0 40px;
 }
 /*# sourceMappingURL=style.css.map */
+.pic{
+  width: 630px;
+  height: 330px;
+}
+.near{
+  display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
